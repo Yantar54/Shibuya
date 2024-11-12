@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: "FjallaOne";
+   
+}
+
+
+
+body{
+    overflow: hidden;
+    text-transform: uppercase;
+    
+}
+
+.back-image{
+    z-index: -9999;
+    position: fixed;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+    
+}
+
+.an-element{
+    background-image: url("../../assets/images/brown-back.png");
+    color: #e69aa4;
+    font-size: clamp(1.125rem,.939rem + .76vw,1.75rem);
+
+}
+
+.top-an-element{
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.botton-an-element{
+    padding: clamp(1.25rem,.599rem + 2.67vw,3.438rem) 20px;
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.botton-an-element__img{
+    align-self: flex-end;
+    
+}
+

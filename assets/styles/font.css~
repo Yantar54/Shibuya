@@ -1,0 +1,13 @@
+@font-face{
+    src: url("../fonts/bellfort-blod.ttf");
+    font-family: "Bellfort";
+    font-weight: 400;
+}
+
+@font-face{
+    src: url("../fonts/bellfort-blod.ttf");
+    font-family: "Hakusyukaisyo";
+    font-weight: 400;
+    
+}
+

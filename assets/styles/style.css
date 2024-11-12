@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+    font-family: "FjallaOne";
+}
+
+*::selection{
+    color: red;
+    background-color: black;
+}
+
+p, a, li, ul, ol, span{
+    color: unset;
+    text-decoration: none;
+    list-style-type: none
+}
+
+a{
+    text-wrap: nowrap;
+}
+
+body{
+    background-color: gray;
+}
+
+.main-back-image{
+    z-index: -9999;
+    width: 100%;
+    height: 100dvh;
+    object-fit: fill;
+    position: fixed;
+}
+
+.header__adaptive-image{
+    display: none;
+    width: 40px;
+    height: 45px;
+    object-fit: fill;
+    object-position: center;
+    
+}
+
+.title-block__adaptive-socialmedia{
+    display: none;
+    width: 65px;
+    height: 65px;
+    object-fit: fill;
+    object-position: center;   
+}
+
+
+.dreifach{
+    display: none;
+    width: 40px;
+    height: 40px;
+    object-fit: fill;
+    object-position: center;   
+}
+
+.container{
+    width: 100%;
+    max-width: 1720px;
+
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* header */
+
+
+.header{
+    width: 100%;
+    padding: 70px 0;
+    text-transform: uppercase;
+}
+
+.header__block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    
+    
+}
+
+.header__nav{
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+.header__ul{
+    width: inherit;
+    max-width: inherit;
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.header__link{
+    font-size: 40px;
+    font-size: clamp(2.5rem, 2.8rem + -1.4588vw, 1.25rem);
+    
+}
+
+
+/* header__socialmedia-links */
+
+.header__socialmedia-links{
+    width: 100%;
+    max-width: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+
+.header__img-link{
+    width: inherit;
+    height: inherit;   
+}
+
+.header__socialmeda-img{
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+    object-position: center;
+    background-color: #251607;
+}
+
+/* title-block */
+
+.title-block{
+    text-transform: uppercase;
+    
+}
+
+.title-block__inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.shibuya-title{
+    color: #251607;
+    font-size: 470px;
+    /* height: 480px; */
+    font-size: clamp(4.375rem, -2.4047rem + 33.8983vw, 29.375rem);
+}
+
+.shibuya-sub-title{
+    text-align: center;
+    font-size: 30px;
+    font-size: clamp(1.875rem, 2.085rem + -1.0212vw, 1rem);
+}
+
+.title-block__inner-image{
+    width: 100%;
+    max-width: 1650px;
+
+    object-fit: cover;
+    object-position: center;
+}
